@@ -21,3 +21,5 @@ Route::get('firstlayaout', function (){
     return view('firstlayaout');
 });
 
+Route::resource('/hola', 'primerc');
+
